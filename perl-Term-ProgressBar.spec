@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Term
-%define	pnam	ProgressBar
+%define		pdir	Term
+%define		pnam	ProgressBar
 Summary:	Term::ProgressBar - Perl extension to display a progress bar
 Summary(pl):	Term::ProgressBar - rozszerzenie Perla do wy¶wietlania paska postêpu
 Name:		perl-Term-ProgressBar
