@@ -23,13 +23,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A progress bar for things that take a while. It looks like
- 50% [=====     ]
+ 50% [=====	]
 and is as long as the terminal. Linear estimation of the time left for
 the process to run is available.
 
 %description -l pl
 Pasek postêpu dla rzeczy trwaj±cych nieco czasu. Wygl±da tak:
- 50% [=====     ]
+ 50% [=====	]
 i jest takiej szeroko¶ci jak terminal. Dostêpna jest liniowa estymacja
 czasu potrzebnego na wykonanie procesu.
 
