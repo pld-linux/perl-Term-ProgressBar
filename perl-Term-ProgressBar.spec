@@ -7,16 +7,17 @@
 %define pnam	ProgressBar
 Summary:	Term::ProgressBar - Perl extension to display a progress bar
 Name:		perl-Term-ProgressBar
-Version:	1.0
+Version:	2.05
 Release:	1
 # same as perl
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	24414a44eff4f2f0b45a4b83518dfc47
+# Source0-md5:	ffbc791ad39273ad00e0662efee804fc
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:	noarch
 
 %description
 A progress bar for things that take a while.  It looks like
