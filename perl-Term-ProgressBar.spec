@@ -8,13 +8,13 @@
 Summary:	Term::ProgressBar - Perl extension to display a progress bar
 Summary(pl):	Term::ProgressBar - rozszerzenie Perla do wy¶wietlania paska postêpu
 Name:		perl-Term-ProgressBar
-Version:	2.05
-Release:	2
+Version:	2.09
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ffbc791ad39273ad00e0662efee804fc
+# Source0-md5:	440dfd04fe51a12d314e9adf2445f04a
 BuildRequires:	perl-Class-MethodMaker >= 1.02
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
