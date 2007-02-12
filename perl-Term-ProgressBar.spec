@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	ProgressBar
 Summary:	Term::ProgressBar - Perl extension to display a progress bar
-Summary(pl):	Term::ProgressBar - rozszerzenie Perla do wy¶wietlania paska postêpu
+Summary(pl.UTF-8):   Term::ProgressBar - rozszerzenie Perla do wyÅ›wietlania paska postÄ™pu
 Name:		perl-Term-ProgressBar
 Version:	2.09
 Release:	1
@@ -27,10 +27,10 @@ A progress bar for things that take a while. It looks like
 and is as long as the terminal. Linear estimation of the time left for
 the process to run is available.
 
-%description -l pl
-Pasek postêpu dla rzeczy trwaj±cych nieco czasu. Wygl±da tak:
+%description -l pl.UTF-8
+Pasek postÄ™pu dla rzeczy trwajÄ…cych nieco czasu. WyglÄ…da tak:
  50% [=====	]
-i jest takiej szeroko¶ci jak terminal. Dostêpna jest liniowa estymacja
+i jest takiej szerokoÅ›ci jak terminal. DostÄ™pna jest liniowa estymacja
 czasu potrzebnego na wykonanie procesu.
 
 %prep
