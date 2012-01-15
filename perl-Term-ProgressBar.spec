@@ -1,6 +1,7 @@
 #
 # Conditional build:
-%bcond_without	tests	# do perform "make test"
+%bcond_with	tests	# do perform "make test"
+			# it needs imported gpg key or network connection, do disabled
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Term
@@ -8,13 +9,13 @@
 Summary:	Term::ProgressBar - Perl extension to display a progress bar
 Summary(pl.UTF-8):	Term::ProgressBar - rozszerzenie Perla do wyświetlania paska postępu
 Name:		perl-Term-ProgressBar
-Version:	2.09
-Release:	2
+Version:	2.10
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	440dfd04fe51a12d314e9adf2445f04a
+# Source0-md5:	e8c6a2c779440698f7fbd2b024fae0ac
 BuildRequires:	perl-Class-MethodMaker >= 1.02
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
