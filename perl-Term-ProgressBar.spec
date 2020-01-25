@@ -5,7 +5,6 @@
 
 %define		pdir	Term
 %define		pnam	ProgressBar
-%include	/usr/lib/rpm/macros.perl
 Summary:	Term::ProgressBar - Perl extension to display a progress bar
 Summary(pl.UTF-8):	Term::ProgressBar - rozszerzenie Perla do wyświetlania paska postępu
 Name:		perl-Term-ProgressBar
